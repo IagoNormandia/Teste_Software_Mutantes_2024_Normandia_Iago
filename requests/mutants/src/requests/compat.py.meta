@@ -1,0 +1,13 @@
+{
+    "exit_code_by_key": {
+        "requests.compat.x__resolve_char_detection__mutmut_1": 0,
+        "requests.compat.x__resolve_char_detection__mutmut_2": 0,
+        "requests.compat.x__resolve_char_detection__mutmut_3": 0,
+        "requests.compat.x__resolve_char_detection__mutmut_4": 0,
+        "requests.compat.x__resolve_char_detection__mutmut_5": 0,
+        "requests.compat.x__resolve_char_detection__mutmut_6": 0,
+        "requests.compat.x__resolve_char_detection__mutmut_7": 0,
+        "requests.compat.x__resolve_char_detection__mutmut_8": 0
+    },
+    "hash_by_function_name": {}
+}

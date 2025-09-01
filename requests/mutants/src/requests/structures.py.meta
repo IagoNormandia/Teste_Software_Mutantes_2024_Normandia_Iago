@@ -1,0 +1,33 @@
+{
+    "exit_code_by_key": {
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__init____mutmut_1": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__init____mutmut_2": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__init____mutmut_3": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__init____mutmut_4": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__init____mutmut_5": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__init____mutmut_6": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__setitem____mutmut_1": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__setitem____mutmut_2": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__getitem____mutmut_1": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__getitem____mutmut_2": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__delitem____mutmut_1": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1lower_items__mutmut_1": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__eq____mutmut_1": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__eq____mutmut_2": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__eq____mutmut_3": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__eq____mutmut_4": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__eq____mutmut_5": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1copy__mutmut_1": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__repr____mutmut_1": 1,
+        "requests.structures.x\u01c1CaseInsensitiveDict\u01c1__repr____mutmut_2": 1,
+        "requests.structures.x\u01c1LookupDict\u01c1__init____mutmut_1": 1,
+        "requests.structures.x\u01c1LookupDict\u01c1__getitem____mutmut_1": 1,
+        "requests.structures.x\u01c1LookupDict\u01c1__getitem____mutmut_2": 1,
+        "requests.structures.x\u01c1LookupDict\u01c1__getitem____mutmut_3": 1,
+        "requests.structures.x\u01c1LookupDict\u01c1get__mutmut_1": 1,
+        "requests.structures.x\u01c1LookupDict\u01c1get__mutmut_2": 1,
+        "requests.structures.x\u01c1LookupDict\u01c1get__mutmut_3": 1,
+        "requests.structures.x\u01c1LookupDict\u01c1get__mutmut_4": 1
+    },
+    "hash_by_function_name": {}
+}

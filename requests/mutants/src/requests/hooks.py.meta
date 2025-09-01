@@ -1,0 +1,22 @@
+{
+    "exit_code_by_key": {
+        "requests.hooks.x_dispatch_hook__mutmut_1": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_2": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_3": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_4": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_5": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_6": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_7": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_8": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_9": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_10": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_11": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_12": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_13": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_14": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_15": -24,
+        "requests.hooks.x_dispatch_hook__mutmut_16": 1,
+        "requests.hooks.x_dispatch_hook__mutmut_17": 1
+    },
+    "hash_by_function_name": {}
+}
