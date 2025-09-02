@@ -85,8 +85,8 @@ Agora, vamos configurar e executar o `mutmut` para encontrar os pontos fracos.
     tests_dir = [ "tests/" ]
 
 
-    # 2. Usar o comando de teste completo, com cobertura e exclusão de testes problemáticos
-    test_command = "pytest --cov=requests tests/"
+    # 2. Usar o comando de teste completo, com cobertura disponibilizado no Makefile
+    python -m pytest --cov-config .coveragerc --verbose --cov-report term --cov-report xml --cov=src/requests tests
     ```
 
 2.  **Execute o `mutmut`**:

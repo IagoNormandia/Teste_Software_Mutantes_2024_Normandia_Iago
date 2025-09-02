@@ -2064,7 +2064,7 @@ class TestRequests:
         assert r.history[1].status_code == 200
         assert not r.history[1].is_redirect
         assert r.url == urls_test[2]
-    
+   
     def test_iter_lines_default_decode_unicode_is_false(self):
         """
         Confirma que o comportamento padrão de iter_lines() é devolver
@@ -2088,7 +2088,32 @@ class TestRequests:
         # A linha deve ser um objeto de bytes, não uma string decodificada.
         assert isinstance(first_line, bytes)
         assert first_line == raw_content
+  
+    
+    def test_register_and_deregister_hook(self):
+        """
+        Confirma que um hook pode ser registado e subsequentemente desregistado.
+        Mata o mutante 'no tests' na função deregister_hook.
+        """
+        # 1. Função de hook de exemplo
+        def my_hook(response, **kwargs):
+            return response
 
+        # 2. Criar um objeto que usa hooks e registar o hook
+        req = Request()
+        event = 'response'
+        req.register_hook(event=event, hook=my_hook)
+
+        # 3. Verificar se o hook foi adicionado corretamente
+        assert my_hook in req.hooks[event]
+
+        # 4. Desregistar o hook
+        was_deregistered = req.deregister_hook(event=event, hook=my_hook)
+
+        # 5. Verificar (Assert)
+        # A função deve retornar True e o hook não deve mais estar na lista.
+        assert was_deregistered is True
+        assert my_hook not in req.hooks[event]
 
 class TestCaseInsensitiveDict:
     @pytest.mark.parametrize(
